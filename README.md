@@ -1,31 +1,35 @@
 # Karan Oroumchi
 
-**UI/UX engineer** in Naples, Italy. I design interfaces and build them, for the web in React and TypeScript and natively on iPhone and Android, down to the API.
+UI/UX engineer in Naples, Italy. I design interfaces and build them, for the web in React and TypeScript and natively on iPhone and Android, down to the API.
 
-[karano.me](https://karano.me) · [Showreel](https://karano.me/reel) · [LinkedIn](https://www.linkedin.com/in/karan-oroumchi) · [work@karano.me](mailto:work@karano.me)
-
-Most of my client work lives in private repositories. Two of my own projects are open to read:
-
-- [manus-web](https://github.com/KaranO-Dev/manus-web): MANUS in the browser. Hand tracking with MediaPipe, a Web Audio engine and WebGL2 looks, in Next.js and TypeScript, with Playwright tests that run on a fake camera.
-- [one-take-skill](https://github.com/KaranO-Dev/one-take-skill): a Claude Code skill that turns one round of questions into a launch video in every format, with an original score and a QA pass on each file. Built on HyperFrames.
-
-The rest of the work below is live, and I'm happy to walk through the private code in an interview.
+[Portfolio](https://karano.me) · [Showreel](https://karano.me/reel) · [LinkedIn](https://www.linkedin.com/in/karan-oroumchi) · [work@karano.me](mailto:work@karano.me)
 
 ## Selected work
 
-| Project | What I did | Links |
-|---|---|---|
-| **EST Napoli Innovation Festival** | Designed and built the bilingual festival app alone: the core in about two weeks, then 54 days of new features. 5,000+ visitors. | [festivalnapoliest.it](https://festivalnapoliest.it) · [case study](https://karano.me/work/est) |
-| **Avrei questa idea**, Giffoni Innovation Hub | Moved the platform onto Odoo behind its WordPress site: the connector, one sign-in across both and a rehearsed migration. About 400 members moved with no password resets. | [case study](https://karano.me/work/giffoni) |
-| **Insilicoffee** | In a team of two, built both React apps, customer and barista, and the whole Strapi back end with server-sent events. 50+ people used it live. | [case study](https://karano.me/work/insilicoffee) |
-| **Spici and Officina Digitale** | Two sites in one Framer project with a shared CMS and my own React and TypeScript code components, designed, built and run alone. 450+ pages in Italian and English. | [spici.eu](https://spici.eu) · [case study](https://karano.me/work/spici) |
-| **MANUS** | Pinch the light to play: a hand-tracked laser harp, in the browser and as a native Android app in Kotlin and Jetpack Compose. | [manus.karano.me](https://manus.karano.me) · [case study](https://karano.me/work/manus) · [code](https://github.com/KaranO-Dev/manus-web) |
-| **Offbeat** (in progress) | Turns a set of photos and a song into a video cut on the beat, native on Mac, iPhone and iPad and on the web, with 1,000+ automated tests. | [offbeat.karano.me](https://offbeat.karano.me) · [case study](https://karano.me/work/offbeat) |
+| Project | Role | Scope | Links |
+|---|---|---|---|
+| **karano.me** | Solo | Next.js and React on a design system I built, with contrast measured live from its tokens and an MCP server for AI assistants. More than 100 Playwright tests run before every release. | [Site](https://karano.me) · [Design system](https://karano.me/system) |
+| **EST Napoli Innovation Festival** | Solo | Design and front end of the festival's bilingual PWA. The programme compiles from the organisers' spreadsheet and stays readable offline at the venue. | [Live](https://festivalnapoliest.it) · [Case study](https://karano.me/work/est) |
+| **C-FABIT** | Team, in review | Design and React 19 front end of an art academy's showcase and job board. 30+ screens for four user roles on three shared layouts, with 80+ Odoo API endpoints behind one TanStack Query layer. | [Case study](https://karano.me/work/c-fabit) |
+| **Insilicoffee** | Team of two | Customer and barista React PWAs and the whole Strapi back end, with live order status over server-sent events. The ML developer built the brewing model. | [Case study](https://karano.me/work/insilicoffee) |
+| **Avrei questa idea**, Giffoni Innovation Hub | Team | The WordPress side of the platform's move onto Odoo: a connector plugin and one sign-in across both systems, with no forced password resets. | [Live](https://avreiquestaidea.it) · [Case study](https://karano.me/work/giffoni) |
+| **Spici and Officina Digitale** | Solo | Two brands in one Framer project, with a shared CMS and custom React and TypeScript code components. 450+ pages in Italian and English. | [Live](https://spici.eu) · [Case study](https://karano.me/work/spici) |
+| **MANUS** | Solo | Pinch the light to play: a hand-tracked laser harp in the browser, and a native Android app in Kotlin and Jetpack Compose with a C++ sound engine. | [Live](https://manus.karano.me) · [Case study](https://karano.me/work/manus) · [Code](https://github.com/KaranO-Dev/manus-web) |
+| **Offbeat** | Solo, in progress | Turns a set of photos and a song into a video cut on the beat, natively on Mac, iPhone and iPad and on the web. 1,000+ automated tests. | [Site](https://offbeat.karano.me) · [Case study](https://karano.me/work/offbeat) |
 
-## Tools I use most
+## Public code
 
-React, Next.js, TypeScript, Swift and SwiftUI, Kotlin and Jetpack Compose, Node.js, Python and FastAPI, Strapi, Odoo, Figma and Playwright, with Claude Code, Cursor and Codex CLI every day.
+Client work is in private repositories, and I can walk through it in an interview.
 
-## My site
+- [manus-web](https://github.com/KaranO-Dev/manus-web): MANUS in the browser, in Next.js and TypeScript. Hand tracking with MediaPipe and sound from a Web Audio engine, with Playwright tests that run on a simulated camera.
+- [one-take-skill](https://github.com/KaranO-Dev/one-take-skill): a Claude Code skill that turns one round of questions into a launch video in every format, with a QA pass on each file. Built on HyperFrames.
 
-[karano.me](https://karano.me) is built in Next.js with its own [design system](https://karano.me/system), an [MCP server](https://karano.me/mcp) for AI assistants, and more than 100 Playwright tests before every release.
+## Stack
+
+| Area | Tools |
+|---|---|
+| Web | React, Next.js, TypeScript |
+| Native | Swift, SwiftUI, Kotlin, Jetpack Compose |
+| Back end | Node.js, Python, FastAPI, Strapi, Odoo |
+| Design and testing | Figma, Playwright |
+| AI tools | Claude Code, Cursor, Codex CLI |
